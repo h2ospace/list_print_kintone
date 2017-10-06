@@ -1,0 +1,35 @@
+@media print {
+   .gaia-header,
+   .gaia-argoui-app-index-toolbar,
+   .gaia-header-spacer,
+   .kintone-app-header-space {
+        display: none;
+    }
+
+    .recordlist-gaia {
+        width: 100%;
+    }
+    .recordlist-gaia th {
+        width: auto !important;
+    }
+    .recordlist-gaia thead th:first-child,
+    .recordlist-row-gaia td:first-child,
+    .recordlist-gaia thead th:last-child,
+    .recordlist-row-gaia td:last-child {
+        display: none;
+    }
+
+    .recordlist-cell-gaia span {
+        white-space: normal !important;
+        overflow: auto !important;
+        text-overflow: clip !important;
+        -ms-word-wrap: break-word !important;
+        word-wrap: break-word !important;
+
+    }
+}
+
+.kintone-app-header-space {
+    padding: 20px;
+    text-align: right;
+}

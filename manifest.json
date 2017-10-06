@@ -1,0 +1,30 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "リスト印刷CSS",
+        "en": "List print CSS",
+        "zh": "列出打印CSS"
+    },
+    "description": {
+        "ja": "リスト画面に、印刷ボタンを付加し、またヘッダーなどを印刷しないように設定します",
+        "en": "Add a print button on the list screen, and set not to print headers etc.",
+        "zh": "在列表屏幕上添加打印按钮，并设置不打印标题等"
+    },
+    "icon": "image/icon.png",
+    "homepage_url": {
+        "ja": "https://h2o-space.com",
+        "en": "https://h2o-space.com",
+        "zh": "https://h2o-space.com"
+    },
+    "desktop": {
+        "css": [
+            "css/list_print.css"
+        ],
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "js/list_print.js"
+        ]
+    }
+}
